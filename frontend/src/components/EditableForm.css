@@ -1,0 +1,119 @@
+/* EditableForm.css */
+
+.editable-form-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40;
+  }
+  
+  .title-icon {
+    margin-left: 10px;
+  }
+  
+  .section-title {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: #000;
+  }
+  
+  .form-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .field-key {
+    background: #000;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .field-value {
+    background: #f8f9fa;
+    padding: 8px;
+    border-radius: 6px;
+    width: 200px;
+    text-align: center;
+    color: #343a40;
+  }
+  
+  .edit-input {
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 6px;
+    width: 100%;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .action-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .edit-button {
+    background: #000;
+  }
+  
+  .save-button {
+    background: #28a745;
+  }
+  
+  .predict-button {
+    background: #000;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .prediction-result {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .prediction-box {
+    background: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .prediction-title {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  

@@ -1,0 +1,45 @@
+
+/* Header.css */
+
+.header-container {
+  width: 100%;
+}
+
+.navbar-custom {
+  background-color: #000000; /* Black color for the navbar */
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.search-input {
+  max-width: 200px; /* Adjust as necessary */
+}
+
+.btn-outline-light {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-outline-light:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+
+ 
